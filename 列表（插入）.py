@@ -8,3 +8,7 @@ print(fruit)
 
 fruit.insert(100,'banana')            #超出长度，则在最后面插入元素
 print(fruit)
+
+water = ['water1','water2','water3']
+fruit.extend(water)     #在尾部批量插入列表
+print(fruit)
